@@ -75,6 +75,53 @@
                 <use href="./images/svgicon.svg#close"></use>
               </svg>
             </button>
+
+            <!-- Modal form -->
+            <form action="" class="form">
+
+              <h2 class="form-title">Leave your contacts and we will call you back</h2>
+
+              <div class="form-field">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-input" id="name">
+                <svg width="18" height="18" class="form-icon">
+                  <use href="./images/svgicon.svg#person"></use>
+                </svg>
+              </div>
+
+              <div class="form-field">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="text" class="form-input" id="phone">
+                <svg width="18" height="18" class="form-icon">
+                  <use href="./images/svgicon.svg#phone"></use>
+                </svg>
+              </div>
+
+              <div class="form-field">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-input" id="email">
+                <svg width="18" height="18" class="form-icon">
+                  <use href="./images/svgicon.svg#email"></use>
+                </svg>
+              </div>
+
+              <div class="form-field">
+                <label for="comment" class="form-label">Comment</label>
+                <textarea class="comment" id="comment" placeholder="Text input" rows="8"></textarea>
+              </div>
+
+              <div class="form-field">
+                <label for="policy" class="polic">
+                  <input type="checkbox" name="policy" id="policy" class="checkbox visually-hidden">
+                  <span class="polic-chek"></span>
+                  I accept the terms and conditions of the <a href="" class="polic-link">Privacy Policy</a>
+                </label>
+              </div>
+              
+              <button type="submit" class="form-button">Send</button>
+
+            </form>
+
           </div>
         </div>
 
@@ -425,6 +472,26 @@
             </li>
           </ul>
         </div>
+
+        <form class="subscribe">
+          
+          <p class="footer-social-desc">Subscribe</p>
+
+          <div class="subscribe-container">
+            <div class="subscribe-form">
+              <label for="email" class="sub-form-label">
+                <input type="text" class="sub-form-input" id="email" placeholder="E-mail">
+              </label>
+            </div>
+
+            <button type="submit" class="sub-form-button">Subscribe
+              <svg class="footer-sub-icon" width="24" height="24">
+                <use href="./images/svgicon.svg#plane"></use>
+              </svg>
+            </button>
+          </div>
+
+        </form>
 
       </div>
 
